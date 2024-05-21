@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Parent } from "./components/Parent";
+import React from "react";
 
 export default function Home() {
   return (
@@ -18,6 +20,9 @@ export default function Home() {
             Get started by editing <code>app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
+          <li>
+            <Parent />
+          </li>
         </ol>
 
         <div className={styles.ctas}>
